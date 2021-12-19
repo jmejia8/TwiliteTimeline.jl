@@ -12,4 +12,10 @@ include("persistor.jl")
 include("parameters.jl")
 include("callers.jl")
 
+# API
+export favorite, favorited, get_favorite
+include("api/favorite.jl")
+
+
+
 end
